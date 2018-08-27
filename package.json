@@ -6,7 +6,9 @@
   "author": "Graham Cox <graham@grahamcox.co.uk>",
   "license": "MIT",
   "dependencies": {
+    "build-url": "^1.2.0",
     "dotenv": "^6.0.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "uuid": "^3.3.2"
   }
 }
