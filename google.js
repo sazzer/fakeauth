@@ -14,9 +14,9 @@ const idToken = {
 const idTokenOptions = {
     expiresIn: '1 hour',
     notBefore: 0,
-    audience: uuid(),
+    audience: 'testaudience-1234567890'
     issuer: 'https://accounts.google.com',
-    subject: uuid()
+    subject: 'testuserid-1234567890'
 };
 
 module.exports = (app) => {
@@ -33,7 +33,7 @@ module.exports = (app) => {
         return res.redirect(returnUrl);
     });
 
-    app.post('/oauth2/v4/token', (req, res) => {
+    app.post('/google/oauth2/v4/token', (req, res) => {
         const idTokenJwt = jwt.sign(idToken, process.env.GOOGLE_IDTOKEN_SECRET, idTokenOptions);
 
         res.send({
