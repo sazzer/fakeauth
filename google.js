@@ -14,7 +14,7 @@ const idToken = {
 const idTokenOptions = {
     expiresIn: '1 hour',
     notBefore: 0,
-    audience: 'testaudience-1234567890'
+    audience: 'testaudience-1234567890',
     issuer: 'https://accounts.google.com',
     subject: 'testuserid-1234567890'
 };

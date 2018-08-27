@@ -3,6 +3,8 @@ FakeAuth
 
 This project exists to act as a fake authentication service for end-to-end testing against third-party authentication providers.
 
+Docker Images of this are available at https://hub.docker.com/r/sazzer/fakeauth/
+
 The authentication services that this service can represent are as follows:
 
 Google

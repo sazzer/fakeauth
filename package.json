@@ -1,6 +1,6 @@
 {
   "name": "fakeauth",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "git@github.com:sazzer/fakeauth.git",
   "author": "Graham Cox <graham@grahamcox.co.uk>",
