@@ -6,6 +6,7 @@
   "author": "Graham Cox <graham@grahamcox.co.uk>",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "build-url": "^1.2.0",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",

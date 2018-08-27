@@ -14,4 +14,13 @@ module.exports = (app) => {
         });
         return res.redirect(returnUrl);
     });
+
+    app.post('/oauth2/v4/token', (req, res) => {
+        res.send({
+            'access_token': uuid(),
+            'token_type': 'Bearer',
+            'expires_in': 3600,
+            'id_token': 'TODO'
+        });
+    });
 };
