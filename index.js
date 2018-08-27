@@ -8,5 +8,5 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 googleHandlers(app);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
